@@ -18,8 +18,11 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="./index.php?page=product&category=all">All</a></li>
-            <li><a class="dropdown-item" href="./index.php?page=product&category=book">Book</a></li>
-            <li><a class="dropdown-item" href="./index.php?page=product&category=movie">Movie</a></li>
+            <li><a class="dropdown-item" href="./index.php?page=product&category=Foods%20and%20Beverages">Foods and Beverages</a></li>
+            <li><a class="dropdown-item" href="./index.php?page=product&category=Electronics">Electronics</a></li>
+            <li><a class="dropdown-item" href="./index.php?page=product&category=Sports">Sports</a></li>
+            <li><a class="dropdown-item" href="./index.php?page=product&category=Clothes">Clothes</a></li>
+            <li><a class="dropdown-item" href="./index.php?page=product&category=Health%20and%20Personal%20Care">Health and Personal Care</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
@@ -32,10 +35,6 @@
         </li>
 
       </ul>
-      <div class="search-box" style="margin-right:50px">
-        <input class="form-control me-2 border border-dark" type="text" placeholder="Search" autocomplete="off" aria-label="Search">
-        <div class="result"></div>
-      </div>
       <span>Hello <?php
                   if ($_SESSION['weblab']) {
                     echo $_SESSION['username'];
